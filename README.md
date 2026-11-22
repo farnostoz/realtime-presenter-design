@@ -1,6 +1,6 @@
 # Church Controller — Number & Verse prototype
 
-A static, interactive prototype of the church presentation controller (current prototype: **v1.5**).
+A static, interactive prototype of the church presentation controller (current prototype: **v1.6**).
 
 ## Try it
 
@@ -34,7 +34,7 @@ Do not upload the ZIP itself as the site: extract it and upload the files.
 - Replace `index.html` with the new complete HTML prototype.
 - Commit the change to `main`; GitHub Pages republishes the page automatically.
 - Keep the file name `index.html` and the repository name the same so that the team URL does not change.
-- Optionally tag milestones (`v1.5`, `v1.6`, etc.) for reproducible review.
+- Optionally tag milestones (`v1.6`, `v1.6`, etc.) for reproducible review.
 
 ## Public-content warning
 
@@ -43,3 +43,11 @@ This repository and the deployed site are public. The HTML currently embeds a ch
 ## Feedback
 
 Share the GitHub Pages URL with organists. Capture usability findings as repository issues or in your usual team feedback channel. In particular, test **OFF → +1**, entering a new song, clearing a draft, returning to LIVE, and bookmarks on actual tablets.
+
+## v1.6 changes
+
+- Green `−1/+1` in LIVE mode and blue in DRAFT mode.
+- Verse controls disabled when there is no selected song number.
+- Catalog buttons show `Kancionál` or `Kanc.` by pane width, and `Žalm`.
+
+The page is intentionally static; the deployed version does **not** control a church display.
